@@ -1,6 +1,6 @@
 from enum import Enum
 
-class Topik(Enum):
+class Group(Enum):
     ALAT_DAN_PERANGKAT = "alat-dan-perangkat"
     DOMAIN = "domain"
     E_GOVERNMENT = "e-government"
