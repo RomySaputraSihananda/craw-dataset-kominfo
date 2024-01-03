@@ -6,15 +6,17 @@ from itertools import groupby
 
 from concurrent.futures import ThreadPoolExecutor
 
-from kominfo.helpers import Parser, logging
+from kominfo.helpers import Parser, Datetime, logging
 
 class Kominfo:
     def __init__(self) -> None:
         self.__parser: Parser = Parser()
+        self.__datetime: Datetime = Datetime()
         self.__BASE_URL: str = 'https://data.kominfo.go.id'
         
         self.__result: dict = {} 
         self.__result['page']: int = None
+        self.__result['date_now']: str = None
         self.__result['data']: list = [] 
         
         self.__request: Session = Session()
@@ -49,6 +51,7 @@ class Kominfo:
             
             if(response.status_code != 200): return
 
+            self.__result['date_now']: str = self.__datetime.now()
             self.__result['page']: int = page
 
             cards: PyQuery = self.__parser.execute(response.text, '.d-flex.align-content-center.mb-3.list-wrap.p-3.cs-rounded-md.cs-bg-light')
