@@ -1,0 +1,2 @@
+class Kominfo:
+    pass

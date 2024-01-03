@@ -1,0 +1,1 @@
+from .Kominfo import Kominfo
