@@ -52,32 +52,31 @@ class Kominfo:
         })
 
     def search(self, **kwargs) -> None:
-        page: int = 1
-        while(True):
-            self.__result['data']: list = [] 
-            response: Response = self.__requests.get(f'https://data.kominfo.go.id/opendata/dataset?page={page}', params=kwargs)
-            
-            if(response.status_code != 200): return
-            cards: PyQuery = self.__parser.execute(response.text, '.d-flex.align-content-center.mb-3.list-wrap.p-3.cs-rounded-md.cs-bg-light')
+        # page: int = 1
+        # while(True):
+        self.__result['data']: list = [] 
+        response: Response = self.__requests.get(f'https://data.kominfo.go.id/opendata/dataset', params=kwargs)
+        
+        if(response.status_code != 200): return logging.warning(f'error to fetch with code [{response.status_code}]')
+        cards: PyQuery = self.__parser.execute(response.text, '.d-flex.align-content-center.mb-3.list-wrap.p-3.cs-rounded-md.cs-bg-light')
 
-            if(not cards): break
-            
-            logging.info(f'proccess page {page}')
+        if(not cards): return logging.warning('page not contain datasets')
 
-            self.__result['date_now']: str = self.__datetime.now()
-            self.__result['page']: int = page 
+        logging.info(f'proccess page {kwargs.get("page")}')
 
-            urls: list = [self.__BASE_URL + self.__parser.execute(card, 'a:first-child').attr('href') for card in cards] 
+        self.__result['date_now']: str = self.__datetime.now()
+        self.__result['page']: int = kwargs.get('page') 
 
-            futures: list = [self.__executor.submit(self.__filter_data, url) for url in urls]
-            
-            for future in as_completed(futures):
-                future.result()        
-            
-            with open(f'page_{page}.json', 'w') as file:
-                file.write(dumps(self.__result, indent=2))
+        urls: list = [self.__BASE_URL + self.__parser.execute(card, 'a:first-child').attr('href') for card in cards] 
 
-            page += 1
+        futures: list = [self.__executor.submit(self.__filter_data, url) for url in urls]
+        
+        for future in as_completed(futures):
+            future.result()
+
+        return self.__result
+
+            # page += 1
 
 # testing
 if(__name__ == '__main__'):
