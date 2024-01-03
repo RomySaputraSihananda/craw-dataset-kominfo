@@ -44,20 +44,18 @@ python main.py --org=news --output=data
 
 ```bash
 python main.py --keyword=pendidikan --output=data
-python main.py --keyword=pendidikan --category=news --output=data
+python main.py --keyword=pendidikan --group=news --output=data
 python main.py --keyword=pendidikan --org=news --output=data
 ```
 
 ### Flags
 
-| Flag        | Alias |             Description             | Example                | Default |
-| :---------- | :---: | :---------------------------------: | :--------------------- | :-----: |
-| --category  |  -s   | [category](Category.md) of the site | --category=news        |  news   |
-| --page      |  -p   |       number page of the site       | --page=2               |    1    |
-| --keyword   |  -d   |    keyword to search to the site    | --keyword=war          |  None   |
-| --from_date |  -d   |       start date of the site        | --from_date=2023-01-01 |  None   |
-| --to_date   |  -d   |        end date of the site         | --to_date=2023-12-18   |  None   |
-| --output    |  -o   |        json file output path        | --output=data          |  data   |
+| Flag      | Alias |               Description               | Example                    | Default |
+| :-------- | :---: | :-------------------------------------: | :------------------------- | :-----: |
+| --keyword |  -k   |      keyword to search to the site      | --keyword=war              |  None   |
+| --group   |  -g   |      [group](Group.md) of the site      | --group=DOMAIN             |  None   |
+| --org     |  -or  | [organisasi](Organisasi.md) of the site | --org=INSPEKTORAT_JENDERAL |  None   |
+| --output  |  -o   |          json file output path          | --output=data              |  data   |
 
 ## Sample Output
 
