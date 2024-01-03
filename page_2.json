@@ -1,0 +1,132 @@
+{
+  "page": 2,
+  "date_now": "2024-01-03T16:57:25",
+  "data": [
+    {
+      "judul": "Jumlah Gangguan Frekuensi Berdasarkan Jenis Layanan per-UPT",
+      "topik": "Frekuensi Radio",
+      "pemilik": "Direktorat Jenderal Sumber Daya dan Perangkat Pos dan Informatika",
+      "email_pemilik": "-",
+      "dataset_dibuat": "22 Aug 2017",
+      "dataset_diperbarui": "19 Jul 2022",
+      "versi": "-",
+      "lisensi": "Creative Commons Attribution",
+      "datasets": {
+        "xls": [
+          {
+            "judul": "Jumlah Gangguan Frekuensi Berdasarkan Jenis Layanan per-UPT pada Tahun 2017",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/e3e68af5-79ad-447f-9b22-20c523b9b9fa/resource/eb3336a5-0c2b-44fa-8398-4860619138e9/download/jumlah-gangguan-frekuensi-berdasarkan-jenis-layanan-per-upt-pada-tahun-2017.xls"
+          },
+          {
+            "judul": "Jumlah Gangguan Frekuensi berdasarkan Jenis Layanan per UPT pada semester 1 Tahun 2018.xls",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/e3e68af5-79ad-447f-9b22-20c523b9b9fa/resource/f7b09de0-cda0-4da7-99fe-5f1d77becf2d/download/jumlah-gangguan-frekuensi-berdasarkan-jenis-layanan-per-upt-pada-semester-1-tahun-2018.xls"
+          }
+        ],
+        "xlsx": [
+          {
+            "judul": "Jumlah gangguan frekuensi berdasarkan jenis layanan per UPT pada tahun 2019.xlsx",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/e3e68af5-79ad-447f-9b22-20c523b9b9fa/resource/0730c9b2-688d-4774-b0b4-1a9f8350487b/download/jumlah-gangguan-frekuensi-berdasarkan-jenis-layanan-per-upt-pada-tahun-2019.xlsx"
+          },
+          {
+            "judul": "Jumlah Gangguan Frekuensi Berdasarkan Jenis Layanan per-UPT pada Tahun 2020.xlsx",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/e3e68af5-79ad-447f-9b22-20c523b9b9fa/resource/f3aaab7c-274b-4cc9-8a62-8d89c3b1dbed/download/jumlah-laporan-gangguan-frekuensi-berdasarkan-jenis-layanan-per-upt-pada-tahun-2020.xlsx"
+          },
+          {
+            "judul": "Jumlah Laporan Gangguan Frekuensi Berdasarkan Jenis Layanan Per UPT pada Tahun 2021",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/e3e68af5-79ad-447f-9b22-20c523b9b9fa/resource/ee0b2d6b-188f-4e44-85e2-97a484b9f25a/download/jumlah-laporan-gangguan-frekuensi-berdasarkan-jenis-layanan-per-upt-pada-tahun-2021.xlsx"
+          }
+        ]
+      }
+    },
+    {
+      "judul": "Jumlah Penggunaan Frekuensi Termonitor Terbanyak Berdasarkan Dinas Layanan",
+      "topik": "Frekuensi Radio",
+      "pemilik": "Direktorat Jenderal Sumber Daya dan Perangkat Pos dan Informatika",
+      "email_pemilik": "-",
+      "dataset_dibuat": "04 Feb 2022",
+      "dataset_diperbarui": "20 Jul 2022",
+      "versi": "-",
+      "lisensi": "Creative Commons Attribution",
+      "datasets": {
+        "xlsx": [
+          {
+            "judul": "Data Jumlah Penggunaan Frekuensi Termonitor Terbanyak Berdasarkan Dinas Layanan Tahun 2016-2020.xlsx",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/60b32667-f0ac-4687-a27f-861063c4d7d6/resource/db7710ea-9ef8-4d7e-8a1b-2e5662fcf140/download/data-jumlah-penggunaan-frekuensi-termonitor-terbanyak-berdasarkan-dinas-layanan-tahun-2016-2020.xlsx"
+          }
+        ]
+      }
+    },
+    {
+      "judul": "Daftar Filing Satelit GSO yang Telah Ternotifikasi di ITU",
+      "topik": "Frekuensi Radio",
+      "pemilik": "Direktorat Jenderal Sumber Daya dan Perangkat Pos dan Informatika",
+      "email_pemilik": "-",
+      "dataset_dibuat": "04 Feb 2022",
+      "dataset_diperbarui": "24 Jul 2022",
+      "versi": "-",
+      "lisensi": "Creative Commons Attribution",
+      "datasets": {
+        "xlsx": [
+          {
+            "judul": "Daftar Filing Satelit GSO yang Telah Ternotifikasi di ITU",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/077f2fec-c05b-4305-9085-3e7a39023346/resource/1946c96e-8e42-4a74-a511-7cef052b4153/download/daftar-filing-satelit-gso-yang-telah-ternotifikasi-di-itu.xlsx"
+          }
+        ]
+      }
+    },
+    {
+      "judul": "Daftar Filing Satelit yang Berstatus Koordinasi",
+      "topik": "Frekuensi Radio",
+      "pemilik": "Direktorat Jenderal Sumber Daya dan Perangkat Pos dan Informatika",
+      "email_pemilik": "-",
+      "dataset_dibuat": "04 Feb 2022",
+      "dataset_diperbarui": "20 Jul 2022",
+      "versi": "-",
+      "lisensi": "Creative Commons Attribution",
+      "datasets": {
+        "xlsx": [
+          {
+            "judul": "Daftar Filing Satelit yang Berstatus Koordinasi.xlsx",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/3be85301-f0a3-4035-9cbe-d33ffd9f1e85/resource/8f6310b0-cb67-439f-bdca-55ce0200c7fe/download/daftar-filing-satelit-yang-berstatus-koordinasi.xlsx"
+          }
+        ]
+      }
+    },
+    {
+      "judul": "Rekapitulasi Penertiban Spektrum yang dilakukan oleh UPT",
+      "topik": "Frekuensi Radio",
+      "pemilik": "Direktorat Jenderal Sumber Daya dan Perangkat Pos dan Informatika",
+      "email_pemilik": "-",
+      "dataset_dibuat": "22 Aug 2017",
+      "dataset_diperbarui": "19 Jul 2022",
+      "versi": "-",
+      "lisensi": "Creative Commons Attribution",
+      "datasets": {
+        "xls": [
+          {
+            "judul": "Rekapitulasi Penertiban Spektrum yang dilakukan oleh UPT Tahun 2016.xls",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/faa574b2-e337-463e-8eb3-3cf227729f37/resource/838a11ea-99d9-445a-a6c3-e8f79d58211d/download/rekapitulasi-penertiban-spektrum-yang-dilakukan-oleh-upt-tahun-2016.xls"
+          },
+          {
+            "judul": "Rekapitulasi Penertiban spektrum yang dilakukan oleh UPT Tahun 2017.xls",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/faa574b2-e337-463e-8eb3-3cf227729f37/resource/4aa0142b-d2de-4871-bfcb-87ed690bef02/download/rekapitulasi-penertiban-spektrum-yang-dilakukan-oleh-upt-tahun-2017.xls"
+          },
+          {
+            "judul": "rekapitulasi penertiban spektrum yang dilakukan oleh UPT pd sem-1 2018.xlsx",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/faa574b2-e337-463e-8eb3-3cf227729f37/resource/c922d3db-8d9e-486d-9397-fe8f6ce03b96/download/rekapitulasi-penertiban-spektrum-yang-dilakukan-oleh-upt-pd-sem-1-2018.xlsx"
+          }
+        ],
+        "xlsx": [
+          {
+            "judul": "Rekapitulasi Penertiban Frekuensi yang dilakukan oleh UPT pada Tahun 2020.xlsx",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/faa574b2-e337-463e-8eb3-3cf227729f37/resource/4308c878-ddd9-48ca-a48d-e06f8ce22dec/download/rekapitulasi-penertiban-frekuensi-yang-dilakukan-oleh-upt-pada-tahun-2020.xlsx"
+          },
+          {
+            "judul": "Rekapitulasi Penertiban Frekuensi yang Dilakukan oleh UPT pada Tahun 2021",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/faa574b2-e337-463e-8eb3-3cf227729f37/resource/92e475c2-ac94-45d9-81b1-7d71aeab3b1a/download/rekapitulasi-penertiban-frekuensi-yang-dilakukan-oleh-upt-pada-tahun-2021.xlsx"
+          }
+        ]
+      }
+    }
+  ]
+}

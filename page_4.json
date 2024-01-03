@@ -1,0 +1,100 @@
+{
+  "page": 4,
+  "date_now": "2024-01-03T16:57:27",
+  "data": [
+    {
+      "judul": "Data Stasiun Radio Berdasarkan Jenis Penggunaan Frekuensi Radio Menurut Provinsi",
+      "topik": "Frekuensi Radio",
+      "pemilik": "Direktorat Jenderal Sumber Daya dan Perangkat Pos dan Informatika",
+      "email_pemilik": "-",
+      "dataset_dibuat": "08 Apr 2021",
+      "dataset_diperbarui": "12 Oct 2021",
+      "versi": "-",
+      "lisensi": "Creative Commons Attribution",
+      "datasets": {
+        "xlsx": [
+          {
+            "judul": "Data Stasiun Radio Berdasarkan Jenis Penggunaan Frekuensi Radio Menurut Provinsi pada Tahun 2019.xlsx",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/8e995dd2-4acb-41bd-98cb-11a18f5b6d74/resource/11ca4972-62b2-4d86-85e7-d62877c91a30/download/data-stasiun-radio-berdasarkan-jenis-penggunaan-frekuensi-radio-menurut-provinsi-pada-tahun-201.xlsx"
+          }
+        ]
+      }
+    },
+    {
+      "judul": "Jumlah Penggunaan Frekuensi berdasarkan Service dan Sub-Service di Pulau Besar",
+      "topik": "Frekuensi Radio",
+      "pemilik": "Direktorat Jenderal Sumber Daya dan Perangkat Pos dan Informatika",
+      "email_pemilik": "-",
+      "dataset_dibuat": "13 Feb 2018",
+      "dataset_diperbarui": "12 Oct 2021",
+      "versi": "-",
+      "lisensi": "Creative Commons Attribution",
+      "datasets": {
+        "xls": [
+          {
+            "judul": "Jumlah Penggunaan Frekuensi berdasarkan Service dan Sub-Service di Pulau Besar Tahun 2013 - Sem 1 2017",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/521d2a3b-f7d0-479d-87db-aee993741225/resource/93a82616-9540-43d2-ba6d-254ec84e1200/download/jumlah-penggunaan-frekuensi-berdasarkan-service-dan-sub-service-di-pulau-besar-tahun-2013-sem-1-.xls"
+          },
+          {
+            "judul": "Jumlah Penggunaan Frekuensi berdasarkan Service dan Sub-Service di Pulau Besar Tahun 2013 - Sem 2 2017.xls",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/521d2a3b-f7d0-479d-87db-aee993741225/resource/f76314e2-5d07-4cf1-8494-d512e64d9e58/download/jumlah-penggunaan-frekuensi-berdasarkan-service-dan-sub-service-di-pulau-besar-tahun-2013-sem-2-.xls"
+          }
+        ]
+      }
+    },
+    {
+      "judul": "Daftar Filing Satelit Indonesia dengan status operasional",
+      "topik": "Frekuensi Radio",
+      "pemilik": "Direktorat Jenderal Sumber Daya dan Perangkat Pos dan Informatika",
+      "email_pemilik": "-",
+      "dataset_dibuat": "31 Mar 2021",
+      "dataset_diperbarui": "12 Oct 2021",
+      "versi": "-",
+      "lisensi": "Creative Commons Attribution",
+      "datasets": {
+        "xlsx": [
+          {
+            "judul": "Daftar Filing Satelit Indonesia dengan status operasional sampai dengan tahun 2019.xlsx",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/17b82382-016a-4447-9ffe-c4e25b9060a7/resource/86e28ac0-ff6c-4a24-b493-448451678cb7/download/daftar-filing-satelit-indonesia-dengan-status-operasional-sampai-dengan-tahun-2019.xlsx"
+          }
+        ]
+      }
+    },
+    {
+      "judul": "Filing yang didaftarkan Indonesia ke ITU",
+      "topik": "Frekuensi Radio",
+      "pemilik": "Direktorat Jenderal Sumber Daya dan Perangkat Pos dan Informatika",
+      "email_pemilik": "-",
+      "dataset_dibuat": "04 Feb 2022",
+      "dataset_diperbarui": "04 Feb 2022",
+      "versi": "-",
+      "lisensi": "",
+      "datasets": {
+        "xlsx": [
+          {
+            "judul": "Filing yang didaftarkan Indonesia ke ITU.xlsx",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/d51c365b-566f-4039-8175-dd594d8321a4/resource/b3799e5f-afe9-4316-9ddb-909d4f92a8e1/download/filing-yang-didaftarkan-indonesia-ke-itu.xlsx"
+          }
+        ]
+      }
+    },
+    {
+      "judul": "Daftar Satelit Indonesia",
+      "topik": "Frekuensi Radio",
+      "pemilik": "Direktorat Jenderal Sumber Daya dan Perangkat Pos dan Informatika",
+      "email_pemilik": "-",
+      "dataset_dibuat": "31 Mar 2021",
+      "dataset_diperbarui": "12 Oct 2021",
+      "versi": "-",
+      "lisensi": "Creative Commons Attribution",
+      "datasets": {
+        "xlsx": [
+          {
+            "judul": "Daftar Satelit Indonesia sampai dengan Tahun 2019.xlsx",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/5d6d6cb4-9649-46b4-9380-29b4a08aa348/resource/1eb536f8-c899-4da4-8a5b-db076d59a457/download/daftar-satelit-indonesia-sampai-dengan-tahun-2019.xlsx"
+          }
+        ]
+      }
+    }
+  ]
+}
