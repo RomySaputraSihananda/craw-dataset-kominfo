@@ -4,7 +4,7 @@
 
 ![](https://raw.githubusercontent.com/RomySaputraSihananda/RomySaputraSihananda/main/images/GBnPRZmbgAABJA8.jpeg)
 
-Program ini dirancang untuk melakukan web scraping pada situs berita kominfo dengan memanfaatkan </br>parameter seperti group, keyword, dan organisasi. </br>Tujuan utama dari program ini adalah untuk mengumpulkan informasi dataset dari kominfo sesuai </br>dengan kriteria yang diinputkan oleh pengguna.
+Program ini dirancang untuk melakukan web scraping pada situs kominfo dengan memanfaatkan </br>parameter seperti group, keyword, dan organisasi. </br>Tujuan utama dari program ini adalah untuk mengumpulkan informasi dataset dari kominfo sesuai </br>dengan kriteria yang diinputkan oleh pengguna.
 
 ## Requirements
 
@@ -28,16 +28,24 @@ pip install -r requirements.txt
 
 ## Example Usages
 
-### By Category
+### By Group
 
 ```bash
-python main.py --category=news --page=1 --output=data
+python main.py --group=news --output=data
+```
+
+### By Organisasi
+
+```bash
+python main.py --org=news --output=data
 ```
 
 ### Searching
 
 ```bash
-python main.py --keyword=war --page=1 --category=news --from_date=2023-01-01 --to_date=2023-12-18 --output=data
+python main.py --keyword=pendidikan --output=data
+python main.py --keyword=pendidikan --category=news --output=data
+python main.py --keyword=pendidikan --org=news --output=data
 ```
 
 ### Flags
