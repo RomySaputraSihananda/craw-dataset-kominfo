@@ -70,7 +70,39 @@ python main.py --keyword=pendidikan --org=DIREKTORAT_JENDERAL_PENYELENGGARAAN_PO
 ## Sample Output
 
 ```json
-
+{
+  "page": 1,
+  "next_page": 2,
+  "prev_page": null,
+  "date_now": "2024-01-04T15:13:12",
+  "data": [
+    {
+      "judul": "Jumlah Pertukaran Data Stasiun Radio Periode November 2021 hingga September 2022",
+      "topik": "Frekuensi Radio",
+      "pemilik": "Direktorat Jenderal Sumber Daya dan Perangkat Pos dan Informatika",
+      "email_pemilik": "-",
+      "dataset_dibuat": "2023-07-28T00:00:00",
+      "dataset_diperbarui": "2023-07-28T00:00:00",
+      "versi": "-",
+      "lisensi": "",
+      "datasets": {
+        "csv": [
+          {
+            "judul": "Jumlah Pertukaran Data Stasiun Radio Periode November 2021 hingga September 2022",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/f52ce392-cc58-4e4c-949e-c4b1d87fe5e9/resource/ec4bd640-5fd6-4696-b773-8742d8ceaf16/download/jumlah-pertukaran-data-stasiun-radio-periode-november-2021-hingga-september-2022.csv"
+          }
+        ],
+        "xlsx": [
+          {
+            "judul": "Jumlah Pertukaran Data Stasiun Radio Periode November 2021 hingga September 2022",
+            "url": "https://data.kominfo.go.id/warehouse/dataset/f52ce392-cc58-4e4c-949e-c4b1d87fe5e9/resource/230ccf5c-8d73-44dc-a481-62376915ef3a/download/jumlah-pertukaran-data-stasiun-radio-periode-november-2021-hingga-september-2022.xlsx"
+          }
+        ]
+      }
+    }
+    // more datasets
+  ]
+}
 ```
 
 ## License

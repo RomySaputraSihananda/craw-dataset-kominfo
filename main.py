@@ -18,7 +18,7 @@ if(__name__ == '__main__'):
 
     kominfo: Kominfo = Kominfo()
 
-    outpu_type: str = f'all'  
+    output_type: str = f'all'  
     
     if(args.keyword):
         output_type: str = f'keyword/{args.keyword}'

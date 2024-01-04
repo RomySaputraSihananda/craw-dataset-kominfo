@@ -34,7 +34,7 @@ class Kominfo:
 
         self.__result['data'].append({
             "judul": self.__parser.execute(body, 'h4.mb-3').text(),
-            **{ self.__parser.execute(tr, 'th').text().lower().replace(' ', '_'): self.__parser.execute(tr, 'td').text() for tr in self.__parser.execute(body, '.table.table-bordered tr')},
+            **{ self.__parser.execute(tr, 'th').text().lower().replace(' ', '_'): self.__datetime.execute(self.__parser.execute(tr, 'td').text()) if i == 3 or i == 4 else self.__parser.execute(tr, 'td').text() for i, tr in enumerate(self.__parser.execute(body, '.table.table-bordered tr'))},
             "datasets": {
                 format: [
                     {
@@ -64,8 +64,14 @@ class Kominfo:
 
         logging.info(f'proccess page {kwargs.get("page")}')
 
+        pagination: PyQuery = self.__parser.execute(response.text, '.pagination') 
+
         self.__result['date_now']: str = self.__datetime.now()
-        self.__result['page']: int = kwargs.get('page') 
+        self.__result['page']: int = kwargs.get('page')
+        self.__result['prev_page']: int = int(self.__parser.execute(pagination, '.page-item:first-child a').attr('href').split('=')[-1]) if self.__parser.execute(pagination, '.page-item:first-child a') else None
+        self.__result['next_page']: int = int(self.__parser.execute(pagination, '.page-item:last-child a').attr('href').split('=')[-1]) if self.__parser.execute(pagination, '.page-item:last-child a') else None
+
+        # print(self.__parser.execute(pagination, 'li:first-child'))
 
         urls: list = [self.__BASE_URL + self.__parser.execute(card, 'a:first-child').attr('href') for card in cards] 
 
