@@ -2,7 +2,7 @@
 
 # craw-dataset-kominfo
 
-![](https://raw.githubusercontent.com/RomySaputraSihananda/RomySaputraSihananda/main/images/GBnPRZmbgAABJA8.jpeg)
+![](https://raw.githubusercontent.com/RomySaputraSihananda/RomySaputraSihananda/main/images/F7aQyflakAABLzE.jpg)
 
 Program ini dirancang untuk melakukan web scraping pada situs kominfo dengan memanfaatkan </br>parameter seperti group, keyword, dan organisasi. </br>Tujuan utama dari program ini adalah untuk mengumpulkan informasi dataset dari kominfo sesuai </br>dengan kriteria yang diinputkan oleh pengguna.
 
