@@ -18,15 +18,16 @@ if(__name__ == '__main__'):
 
     kominfo: Kominfo = Kominfo()
 
-
+    outpu_type: str = f'all'  
+    
     if(args.keyword):
-        output: str = f'{args.output}/keyword/{args.keyword}'
+        output_type: str = f'keyword/{args.keyword}'
     elif(args.group):
-        output: str = f'{args.output}/group/{Group[args.group].name}'
+        output_type: str = f'group/{Group[args.group].name}'
     elif(args.org):
-        output: str = f'{args.output}/org/{Organisasi[args.org].name}'
-    else:
-        output: str = f'{args.output}/all'
+        output_type: str = f'org/{Organisasi[args.org].name}'
+
+    output: str = f'{args.output}/{output_type}'
 
     data: dict = kominfo.search(
         q=args.keyword, 
